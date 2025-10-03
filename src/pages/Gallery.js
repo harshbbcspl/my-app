@@ -24,7 +24,7 @@ export default function Gallery() {
   const [selectedImg, setSelectedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStartX, setTouchStartX] = useState(0);
-  const [touchEndX, setTouchEndX] = useState(0);
+  const [setTouchEndX] = useState(0);
 
   const openModal = (index) => {
     setCurrentIndex(index);
