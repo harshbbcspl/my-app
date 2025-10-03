@@ -14,8 +14,10 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-blue-400">Home</Link>
           <Link to="/about" className="hover:text-blue-400">About</Link>
+           <Link to="/gallery" className="hover:text-blue-400">Gallery</Link>
+            <Link to="/team" className="hover:text-blue-400">Team</Link>
           <Link to="/contact" className="hover:text-blue-400">Contact</Link>
-            <Link to="/gallery" className="hover:text-blue-400">Gallery</Link>
+           
         </div>
 
         {/* Mobile Hamburger Button */}
