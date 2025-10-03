@@ -8,6 +8,7 @@ import Gallery from "./pages/Gallery";  // ✅ import Gallery page
 import NotFound from "./components/NotFound";
 import TeamPage from "./pages/TeamPage";
 
+
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery/>} />
             <Route path="/team" element={<TeamPage/>} />
+          
             <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
           </Routes>

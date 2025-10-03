@@ -1,0 +1,67 @@
+export default function Blog() {
+  const articles = [
+    {
+      title: "Introducing Our New Feature 🚀",
+      excerpt:
+        "Discover the amazing new feature that will boost your productivity and simplify your workflow.",
+      img: "https://source.unsplash.com/800x600/?technology,app",
+      link: "#",
+    },
+    {
+      title: "Top 10 UI/UX Design Tips ✨",
+      excerpt:
+        "Learn the top 10 design tips to make your apps look stunning and user-friendly.",
+      img: "https://source.unsplash.com/800x600/?design,uiux",
+      link: "#",
+    },
+    {
+      title: "How We Optimized Our App for Performance ⚡",
+      excerpt:
+        "A behind-the-scenes look at how we made our app faster and more reliable for all users.",
+      img: "https://source.unsplash.com/800x600/?performance,code",
+      link: "#",
+    },
+    {
+      title: "The Future of Web Development 🌐",
+      excerpt:
+        "Explore upcoming trends in web development and how to stay ahead in the industry.",
+      img: "https://source.unsplash.com/800x600/?web,development",
+      link: "#",
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-gradient-to-r from-green-400 to-teal-500 py-12 px-6">
+      <h1 className="text-5xl font-bold text-center text-white mb-12 drop-shadow-lg">
+        📰 Latest Articles
+      </h1>
+
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        {articles.map((article, idx) => (
+          <div
+            key={idx}
+            className="bg-white text-gray-900 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition transform hover:-translate-y-1"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={article.img}
+                alt={article.title}
+                className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-bold mb-2">{article.title}</h3>
+              <p className="text-gray-600 mb-4">{article.excerpt}</p>
+              <a
+                href={article.link}
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Read More →
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
