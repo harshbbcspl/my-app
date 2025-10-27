@@ -132,7 +132,7 @@ export default function Home() {
             {/* Basic Plan */}
             <div className="border rounded-2xl p-8 shadow hover:shadow-2xl transition transform hover:-translate-y-2">
               <h3 className="text-xl font-bold mb-4 text-indigo-600">Basic</h3>
-              <p className="text-3xl font-bold mb-4">$9<span className="text-gray-500 text-base">/mo</span></p>
+              <p className="text-3xl font-bold mb-4">₹900<span className="text-gray-500 text-base">/mo</span></p>
               <ul className="text-gray-600 space-y-2 mb-6">
                 <li>✔ 5 Projects</li>
                 <li>✔ Basic Support</li>
@@ -146,7 +146,7 @@ export default function Home() {
             {/* Pro Plan */}
             <div className="border-2 border-indigo-600 rounded-2xl p-8 shadow-xl transform scale-105">
               <h3 className="text-xl font-bold mb-4 text-indigo-600">Pro</h3>
-              <p className="text-3xl font-bold mb-4">$29<span className="text-gray-500 text-base">/mo</span></p>
+              <p className="text-3xl font-bold mb-4">₹2900<span className="text-gray-500 text-base">/mo</span></p>
               <ul className="text-gray-600 space-y-2 mb-6">
                 <li>✔ Unlimited Projects</li>
                 <li>✔ Priority Support</li>
@@ -160,7 +160,7 @@ export default function Home() {
             {/* Premium Plan */}
             <div className="border rounded-2xl p-8 shadow hover:shadow-2xl transition transform hover:-translate-y-2">
               <h3 className="text-xl font-bold mb-4 text-indigo-600">Premium</h3>
-              <p className="text-3xl font-bold mb-4">$59<span className="text-gray-500 text-base">/mo</span></p>
+              <p className="text-3xl font-bold mb-4">₹5900<span className="text-gray-500 text-base">/mo</span></p>
               <ul className="text-gray-600 space-y-2 mb-6">
                 <li>✔ All Features</li>
                 <li>✔ Dedicated Support</li>

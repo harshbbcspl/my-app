@@ -61,7 +61,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 py-12 px-6">
+    <div className="min-h-screen bg-gradient-to-r from-indigo-500 to-pink-500 py-12 px-6">
       <h1 className="text-5xl font-bold text-center text-white mb-12 drop-shadow-lg">
         🖼️ Our Gallery
       </h1>

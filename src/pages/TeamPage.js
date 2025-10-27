@@ -37,7 +37,7 @@ export default function TeamPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-400 to-teal-500 py-12 px-6 text-white">
+    <div className="min-h-screen bg-gradient-to-r from-indigo-500 to-pink-500 py-12 px-6 text-white">
       <h1 className="text-5xl font-bold text-center mb-12 drop-shadow-lg">
         👥 Meet Our Team
       </h1>

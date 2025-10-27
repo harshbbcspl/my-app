@@ -1,6 +1,7 @@
 export default function About() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-r from-indigo-500 to-pink-500 flex items-center justify-center p-6">
+      
       <div className="bg-white text-gray-800 rounded-2xl shadow-2xl p-10 max-w-4xl mx-auto flex flex-col md:flex-row items-center">
         
         {/* Left Side - Image */}
