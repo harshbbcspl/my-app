@@ -1,40 +1,73 @@
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function TeamPage() {
-  const team = [
-    {
-      name: "Alex Johnson",
-      role: "Project Manager",
-      img: "/mimg2.jpg",
-      twitter: "#",
-      linkedin: "#",
-      github: "#",
-    },
-    {
-      name: "Sophia Lee",
-      role: "UI/UX Designer",
-      img: "/fimg1.png",
-      twitter: "#",
-      linkedin: "#",
-      github: "#",
-    },
-    {
-      name: "Michael Chen",
-      role: "Frontend Developer",
-      img: "/mimg1.jpg",
-      twitter: "#",
-      linkedin: "#",
-      github: "#",
-    },
-    {
-      name: "Emily Davis",
-      role: "Backend Developer",
-      img: "/fimg3.jpg",
-      twitter: "#",
-      linkedin: "#",
-      github: "#",
-    },
-  ];
+ const team = [
+  {
+    name: "Alex Johnson",
+    role: "Project Manager",
+    img: "/mimg2.jpg",
+    twitter: "#",
+    linkedin: "#",
+    github: "#",
+  },
+  {
+    name: "Sophia Lee",
+    role: "UI/UX Designer",
+    img: "/fimg1.png",
+    twitter: "#",
+    linkedin: "#",
+    github: "#",
+  },
+  {
+    name: "Michael Chen",
+    role: "Frontend Developer",
+    img: "/mimg1.jpg",
+    twitter: "#",
+    linkedin: "#",
+    github: "#",
+  },
+  {
+    name: "Emily Davis",
+    role: "Backend Developer",
+    img: "/fimg3.jpg",
+    twitter: "#",
+    linkedin: "#",
+    github: "#",
+  },
+  {
+    name: "Daniel Roberts",
+    role: "Full Stack Developer",
+    img: "/mimg3.jpg",
+    twitter: "#",
+    linkedin: "#",
+    github: "#",
+  },
+  {
+    name: "Olivia Brown",
+    role: "QA Engineer",
+    img: "/fimg2.png",
+    twitter: "#",
+    linkedin: "#",
+    github: "#",
+  },
+  {
+    name: "Ethan Walker",
+    role: "DevOps Engineer",
+    img: "/mimg4.png",
+    twitter: "#",
+    linkedin: "#",
+    github: "#",
+  },
+  {
+    name: "Grace Kim",
+    role: "Content Strategist",
+    img: "/fimg4.png",
+    twitter: "#",
+    linkedin: "#",
+    github: "#",
+  },
+];
+
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-indigo-500 to-pink-500 py-12 px-6 text-white">

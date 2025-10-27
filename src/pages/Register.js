@@ -11,7 +11,7 @@ export default function Register() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-green-400 to-teal-500 px-6">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-500 to-purple-600 px-6">
       <form
         onSubmit={handleSubmit}
         className="bg-white text-gray-900 p-8 rounded-2xl shadow-lg w-full max-w-md space-y-6"
@@ -25,7 +25,7 @@ export default function Register() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Enter your name"
-            className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"
+            className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
             required
           />
         </div>
@@ -37,7 +37,7 @@ export default function Register() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
-            className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"
+            className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
             required
           />
         </div>
@@ -49,21 +49,21 @@ export default function Register() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter your password"
-            className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"
+            className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400"
             required
           />
         </div>
 
         <button
           type="submit"
-          className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg transition"
+          className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-lg transition"
         >
           Register
         </button>
 
         <p className="text-center text-gray-500">
           Already have an account?{" "}
-          <a href="/login" className="text-green-600 font-semibold hover:underline">
+          <a href="/login" className="text-indigo-600 font-semibold hover:underline">
             Login
           </a>
         </p>
